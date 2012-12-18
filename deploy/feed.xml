@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>pyLemon's Notebook'</title>
+    <title>pyLemon's Notebook</title>
     <link href="http://pylemon.pythonic.cn/feed.xml" rel="self" />
     <link href="http://pylemon.pythonic.cn/" />
-    <updated>2012-12-18T13:30:36+08:00</updated>
+    <updated>2012-12-18T14:28:55+08:00</updated>
     <id>http://pylemon.pythonic.cn/</id>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
         <author><name>pyLemon</name></author>
         <link href="http://pylemon.pythonic.cn/2012/hello-world.html"/>
         <published>2012-12-18T13:30:00+08:00</published>
-        <updated>2012-12-18T13:30:36+08:00</updated>
+        <updated>2012-12-18T14:28:55+08:00</updated>
         <id>http://pylemon.pythonic.cn/2012/hello-world.html</id>
         <category scheme="http://pylemon.pythonic.cn/tag/python/" term="python" label="python" />
         <category scheme="http://pylemon.pythonic.cn/tag/code/" term="code" label="code" />
         <content type="html" xml:base="http://pylemon.pythonic.cn/" xml:lang="en">
-            <![CDATA[ <p>Hello World. This is a DEMO post.</p>
+            <![CDATA[ <p>Hello World. This is a DEMO post.
+make some change test the hook is working.</p>
 ]]>
         </content>
     </entry>
