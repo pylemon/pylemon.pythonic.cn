@@ -70,7 +70,7 @@ theme = {
     # you can access theme in template with ``theme`` namespace
     # for instance: {{theme.disqus}}
     "vars": {
-        #"disqus": "your_short_name",
+        "disqus": "pylemonsblog",
         #"analytics": "UA-21475122-1",
     }
 }
