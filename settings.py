@@ -14,20 +14,26 @@ site = {
 #: 1. where the resources  2. how should the site be generated
 config = {
     "source": "content",
-    "output": "deploy",
-    "static": "deploy/static",
-    "static_prefix": "/static/",
+    "output": "_site",
+    "static": "_site/static",
+    # "static_prefix": "/static/",
     "permalink": "{{date.year}}/{{filename}}.html",
     "relative_url": False,
     "perpage": 30,
-    "feedcount": 20,
+    # "feedcount": 20,
     "timezone": "+08:00",
 }
 
 
 author = {
     "default": "pyLemon",
-    "vars": {}
+    "vars": {
+        'pyLemon': {
+            'name': 'Lemon Li',
+            'website': 'http://pylemon.pythonic.cn/',
+            'email': 'leeway1985@gmail.com',
+        }
+    }
 }
 
 #: active readers
@@ -52,19 +58,19 @@ writer = {
         "liquidluck.writers.core.StaticWriter",
         "liquidluck.writers.core.YearWriter",
         "liquidluck.writers.core.CategoryWriter",
-        # "liquidluck.writers.core.CategoryFeedWriter",
+        "liquidluck.writers.core.CategoryFeedWriter",
         # "liquidluck.writers.core.TagWriter",
-        # "liquidluck.writers.core.TagCloudWriter",
+        "liquidluck.writers.core.TagCloudWriter",
     ],
     "vars": {
         # uncomment if you want to reset archive page
-        # "archive_output": "archive.html",
+        "archive_output": "archive.html",
     }
 }
 
 #: theme variables
 theme = {
-    "name": "default",
+    "name": "moment",
 
     # theme variables are defined by theme creator
     # you can access theme in template with ``theme`` namespace
@@ -72,6 +78,25 @@ theme = {
     "vars": {
         "disqus": "pylemonsblog",
         #"analytics": "UA-21475122-1",
+        'allow_comment_on_secret_post': True,
+        
+        'navigation': [
+            {'name': 'Blog', 'link': '/archive/'},
+            {'name': 'Life', 'link': '/life/'},
+            {'name': 'Work', 'link': '/work/'},
+            {'name': 'Resume', 'link': '/resume/'},
+        ],
+        
+        'elsewhere': [
+            {'name': 'GitHub', 'link': 'https://github.com/pylemon'},
+            {'name': 'Twitter', 'link': 'https://twitter.com/leeway1985'},
+        ],
+        
+        'descriptions': {
+            'life': 'I love python!',
+            'work': 'works with Python, Emacs, Javascript, Linux, MacOS, etc..'
+        },
+
     }
 }
 

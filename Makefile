@@ -5,4 +5,4 @@ server:
 	liquidluck server -p 8888
 
 clean:
-	rm -fr deploy/ 
+	rm -fr _site/
