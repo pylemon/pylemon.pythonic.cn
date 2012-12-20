@@ -89,6 +89,7 @@ theme = {
         'elsewhere': [
             {'name': 'GitHub', 'link': 'https://github.com/pylemon'},
             {'name': 'Twitter', 'link': 'https://twitter.com/leeway1985'},
+            {'name': 'Weibo', 'link': 'http://weibo.com/leeway1985'},
         ],
         
         'descriptions': {
