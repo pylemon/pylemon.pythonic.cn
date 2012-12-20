@@ -1,7 +1,7 @@
 # Hello World
 
 - date: 2012-12-18 13:30
-- category: life
+- category: work
 - tags: python, code 
 
 ---------------- 
