@@ -1,6 +1,6 @@
 # Résumé 
 
-- template: note.html 
+- template: note.html
 
 --------- 
 
