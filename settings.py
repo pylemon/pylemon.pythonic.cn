@@ -78,7 +78,7 @@ theme = {
         'allow_comment_on_secret_post': True,
         
         'navigation': [
-            {'name': 'Blog', 'link': '/archive/'},
+            {'name': 'Archive', 'link': '/archive/'},
             {'name': 'Life', 'link': '/life/'},
             {'name': 'Work', 'link': '/work/'},
             {'name': 'Links', 'link': '/links/'},
