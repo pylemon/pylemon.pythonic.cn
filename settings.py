@@ -59,7 +59,7 @@ writer = {
         "liquidluck.writers.core.YearWriter",
         "liquidluck.writers.core.CategoryWriter",
         "liquidluck.writers.core.CategoryFeedWriter",
-        # "liquidluck.writers.core.TagWriter",
+        "liquidluck.writers.core.TagWriter",
         "liquidluck.writers.core.TagCloudWriter",
     ],
     "vars": {
@@ -77,7 +77,7 @@ theme = {
     # for instance: {{theme.disqus}}
     "vars": {
         "disqus": "pylemonsblog",
-        #"analytics": "UA-21475122-1",
+        "analytics": "UA-37174347-1",
         'allow_comment_on_secret_post': True,
         
         'navigation': [
