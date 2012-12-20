@@ -3,7 +3,11 @@ PyYAML==3.10
 Pygments==1.5
 argparse==1.2.1
 docopt==0.5.0
+docutils==0.10
+ipdb==0.7
+ipython==0.13.1
 liquidluck==3.7
 misaka==1.0.2
+nose==1.2.1
 tornado==2.4.1
 wsgiref==0.1.2
