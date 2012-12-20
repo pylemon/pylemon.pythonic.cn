@@ -40,9 +40,7 @@ author = {
 reader = {
     "active": [
         "liquidluck.readers.markdown.MarkdownReader",
-        # uncomment to active rst reader.
-        # but you need to install docutils by yourself
-        # "liquidluck.readers.restructuredtext.RestructuredTextReader",
+        "liquidluck.readers.restructuredtext.RestructuredTextReader",
     ],
     "vars": {}
 }
@@ -63,7 +61,6 @@ writer = {
         "liquidluck.writers.core.TagCloudWriter",
     ],
     "vars": {
-        # uncomment if you want to reset archive page
         "archive_output": "archive.html",
     }
 }

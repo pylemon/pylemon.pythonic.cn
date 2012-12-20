@@ -1,4 +1,4 @@
-# Résumé 
+# Resume
 
 - template: note.html
 
