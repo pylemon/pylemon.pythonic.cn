@@ -81,6 +81,8 @@ theme = {
             {'name': 'Blog', 'link': '/archive/'},
             {'name': 'Life', 'link': '/life/'},
             {'name': 'Work', 'link': '/work/'},
+            {'name': 'Links', 'link': '/links/'},
+            {'name': 'Feed', 'link': '/feed/'},
             {'name': 'Resume', 'link': '/resume/'},
         ],
         
